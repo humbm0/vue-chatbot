@@ -1,28 +1,36 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <ChatBox msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ChatBox from './components/ChatBox.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ChatBox
   }
 }
 </script>
 
 <style>
+body{
+  background: #f9f9f9;
+  margin: 0;
+  font-size: 1em;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 </style>
