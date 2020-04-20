@@ -20,6 +20,7 @@ body{
   background: #f9f9f9;
   margin: 0;
   font-size: 1em;
+  transition: all 0.4s ease;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
